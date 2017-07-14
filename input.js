@@ -4,6 +4,6 @@ console.log(helloMacro, goodbyeMacro)
 
 alert(goodbyeMacro, helloMacro)
 
-function getSomeEmoji() {
+function getSomeGreetings() {
   return [goodbyeMacro, helloMacro]
 }

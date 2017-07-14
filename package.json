@@ -1,0 +1,17 @@
+{
+  "name": "babel-macros-example",
+  "version": "1.0.0",
+  "description": "A simple bable-macros macro",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel input.js -o output.js"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ast-pretty-print": "^2.0.0",
+    "babel-cli": "^6.24.1",
+    "babel-macros": "^0.5.2"
+  }
+}

@@ -1,7 +1,8 @@
 // ast-pretty-print is really handy :)
 const printAST = require('ast-pretty-print')
+const {createMacro} = require('babel-macros')
 
-module.exports = greetingMacro
+module.exports = createMacro(greetingMacro)
 
 function greetingMacro({references, babel}) {
   const {default: hello = [], goodbye = []} = references

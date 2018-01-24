@@ -2,16 +2,20 @@
   "name": "babel-macros-example",
   "version": "1.0.0",
   "description": "A simple bable-macros macro",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "main": "index.js",
   "scripts": {
-    "build": "babel input.js -o output.js"
+    "build": "babel ./__fixtures__/input.js -o ./__fixtures__/output.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
-  "license": "MIT",
   "devDependencies": {
     "ast-pretty-print": "^2.0.0",
     "babel-cli": "^6.24.1",
-    "babel-macros": "^1.1.1"
+    "babel-macros": "^1.1.1",
+    "babel-plugin-macros": "^2.0.0",
+    "babel-plugin-tester": "^5.0.0",
+    "jest": "^22.1.4"
   }
 }

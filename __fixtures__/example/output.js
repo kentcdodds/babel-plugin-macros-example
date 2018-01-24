@@ -1,5 +1,3 @@
-
-
 console.log('hi there', 'goodbye friend');
 
 alert('goodbye friend', 'hi there');

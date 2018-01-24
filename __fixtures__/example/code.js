@@ -1,4 +1,4 @@
-import helloMacro, {goodbye as goodbyeMacro} from './greeting.macro'
+import helloMacro, {goodbye as goodbyeMacro} from '../../greeting.macro'
 
 console.log(helloMacro, goodbyeMacro)
 

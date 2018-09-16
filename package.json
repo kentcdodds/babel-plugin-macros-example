@@ -17,5 +17,8 @@
     "babel-plugin-macros": "^2.0.0",
     "babel-plugin-tester": "^5.0.0",
     "jest": "^22.1.4"
+  },
+  "jest": {
+    "testURL": "http://localhost"
   }
 }
